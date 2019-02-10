@@ -46,7 +46,6 @@ function PushNotifications(options) {
             Authorization: `Bearer ${this.secretKey}`,
             'X-Pusher-Library': `pusher-push-notifications-node ${SDK_VERSION}`
         },
-        json: true,
         simple: true,
         resolveWithFullResponse: true
     });
